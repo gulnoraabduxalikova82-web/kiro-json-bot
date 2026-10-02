@@ -3,7 +3,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from database import Database
 from keyboards import main_menu
-from services.membership_service import check_memberships, chat_link
+from membership_service import check_membership, chat_link
 
 router = Router()
 
